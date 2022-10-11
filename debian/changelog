@@ -1,0 +1,302 @@
+libregexp-common-perl (2017060201-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Import upstream version 2017060201
+  * Update copyright years for upstream files
+  * Update copyright years for debian/* packaging files
+  * Declare compliance with Debian policy 4.0.0
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 17 Jun 2017 16:50:49 +0200
+
+libregexp-common-perl (2016060801-1) unstable; urgency=medium
+
+  * Import upstream version 2016060801
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 08 Jun 2016 21:45:20 +0200
+
+libregexp-common-perl (2016060201-1) unstable; urgency=medium
+
+  * Import upstream version 2016060201
+  * Add Build-Depends-Indep on libtest-regexp-perl
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 03 Jun 2016 21:25:57 +0200
+
+libregexp-common-perl (2016060101-1) unstable; urgency=medium
+
+  * Import upstream version 2016060101
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 01 Jun 2016 06:38:55 +0200
+
+libregexp-common-perl (2016053101-1) unstable; urgency=medium
+
+  * Import upstream version 2016053101
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 31 May 2016 08:17:33 +0200
+
+libregexp-common-perl (2016053001-1) unstable; urgency=medium
+
+  * Import upstream version 2016053001
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 30 May 2016 16:10:23 +0200
+
+libregexp-common-perl (2016052901-1) unstable; urgency=medium
+
+  * Import upstream version 2016052901
+  * Drop Build-Depends-Indep on libtest-pod-{perl,coverage-perl}
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 30 May 2016 06:41:39 +0200
+
+libregexp-common-perl (2016052804-1) unstable; urgency=medium
+
+  * Import upstream version 2016052804
+  * Drop spelling-error-in-manpage.patch patch
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 29 May 2016 06:39:50 +0200
+
+libregexp-common-perl (2016052803-1) unstable; urgency=medium
+
+  * Import upstream version 2016052803
+  * Refresh spelling-error-in-manpage.patch.
+    One part of the patch was not yet applied upstream.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 28 May 2016 13:51:25 +0200
+
+libregexp-common-perl (2016052802-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Import upstream version 2016052802
+  * Update copyright years for upstream files
+  * Declare compliance with Debian policy 3.9.8
+  * Add patch to fix spelling errors in manpages
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 28 May 2016 05:55:46 +0200
+
+libregexp-common-perl (2016020301-1) unstable; urgency=medium
+
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+  * Import upstream version 2016020301
+  * Declare compliance with Debian policy 3.9.7
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 04 Feb 2016 06:11:22 +0100
+
+libregexp-common-perl (2016010801-1) unstable; urgency=medium
+
+  * Import upstream version 2016010801
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 08 Jan 2016 15:59:20 +0100
+
+libregexp-common-perl (2016010701-1) unstable; urgency=medium
+
+  * Import upstream version 2016010701
+  * Drop fix-pod-spelling.patch patch (applied upstream)
+  * Update copyright years for debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 07 Jan 2016 21:34:53 +0100
+
+libregexp-common-perl (2015121601-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * Add debian/upstream/metadata
+  * Import upstream version 2015121601
+  * Bump Debhelper compat level to 9
+  * Update copyright years for debian/* packaging files
+  * debian/copyright: Use Expat license keyword instead of MIT
+  * Declare compliance with Debian policy 3.9.6
+  * Mark package as autopkgtestable
+  * debian/copyright: Use BSD-3-clause keyword for BSD license stanza
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 19 Dec 2015 18:50:20 +0100
+
+libregexp-common-perl (2013031301-1) unstable; urgency=low
+
+  * Imported Upstream version 2013030901, 2013031101, 2013031201 and
+    2013031301
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Update debian/copyright information.
+    Update format to copyright-format 1.0 as released together with Debian
+    policy 3.9.3.
+    Update copyright years for upstream files.
+    Update copyright years for debian/* packaging files.
+  * Bump Standards-Version to 3.9.4
+  * Drop support-domain-names-starting-with-digits.patch patch.
+    Patch was applied upstream.
+  * Update description of package in debian/control.
+    Mention the support for IPv6 addresses.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 19 May 2013 08:48:01 +0200
+
+libregexp-common-perl (2011121001-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update fix-pod-spelling.patch.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Dec 2011 16:49:28 +0100
+
+libregexp-common-perl (2011041701-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ intrigeri ]
+  * Fix one more spelling error in Regexp::Common POD,
+    refresh fix-pod-spelling.patch accordingly and forward it upstream.
+
+ -- intrigeri <intrigeri+debian@boum.org>  Wed, 21 Sep 2011 23:01:19 +0200
+
+libregexp-common-perl (2011041701-2) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ intrigeri ]
+  * Add a patch to support domain names starting with digits.
+    (Closes: #641616)
+
+ -- intrigeri <intrigeri+debian@boum.org>  Sun, 18 Sep 2011 12:01:16 +0200
+
+libregexp-common-perl (2011041701-1) unstable; urgency=low
+
+  * New upstream release 
+  * Convert to '3.0 (quilt)' source package format.
+  * Remove quilt framework: Drop README.source file and remove quilt use
+    in debian/rules
+  * debian/control:
+    - Drop Build-Depends on quilt.
+    - Bump versioned Build-Depends on debhelper to (>= 8).
+  * Bump Debhelper compat level to 8.
+  * Refresh fix-pod-spelling.patch and forward it upstream.
+  * Add myself to Uploaders.
+  * debian/copyright:
+    - Refresh Format-Specification to revision 135 of DEP5 poposal for
+      machine-readable copyright files.
+    - Update debian/* packaging stanza
+    - Refer to Debian systems in general instead of only Debian
+      GNU/Linux systems.
+    - Explicitly point to GPL-1 license text in common-licenses.
+  * Bump Standards-Version to 3.9.2.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 18 Apr 2011 08:33:52 +0200
+
+libregexp-common-perl (2010010201-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Add myself to Uploaders
+  * Rewrite control description
+  * Standards-Version 3.8.3 (no changes)
+  * Use new short debhelper rules format
+  * Add a patch to fix POD spelling errors
+  * Remove unnecessary overrides
+  * No longer install TODO
+  * Refresh copyright to new DEP5 format
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Changed: Replace versioned (build-)dependency on
+    perl (>= 5.6.0-{12,16}) with an unversioned dependency on perl (as
+    permitted by Debian Policy 3.8.3).
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 02 Jan 2010 16:11:40 -0500
+
+libregexp-common-perl (2.122-1) unstable; urgency=low
+
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Removed: XS-
+    Vcs-Svn fields.
+  * debian/rules: delete /usr/lib/perl5 only if it exists.
+
+  * New upstream release.
+  * debian/watch: use dist-based URL.
+  * debian/copyright: point to author-independent source download location;
+    mention both upstream authors; update copyright and licensing terms
+    according to upstream changes.
+  * Refresh debian/rules, no functional changes.
+  * Add lintian-overrides for warnings about long lines; they are caused by
+    long URLs.
+  * Set Standards-Version to 3.7.3 (no changes).
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 04 Jun 2008 20:02:01 +0200
+
+libregexp-common-perl (2.120-4) unstable; urgency=low
+
+  * Adopted for Debian Perl Group
+  * debian/control: debhelper increased to (>= 5)
+  * debian/compat: increased to 5
+
+ -- Krzysztof Krzyzaniak (eloy) <eloy@debian.org>  Fri, 17 Nov 2006 22:29:21 +0100
+
+libregexp-common-perl (2.120-3) unstable; urgency=low
+
+  * debian/watch: Fixed url
+
+ -- Stephen Quinney <sjq@debian.org>  Fri,  3 Nov 2006 18:44:23 +0000
+
+libregexp-common-perl (2.120-2) unstable; urgency=low
+
+  * debian/control:
+      - Switched to my debian.org email address
+      - Moved debhelper to Build-Depends
+
+ -- Stephen Quinney <sjq@debian.org>  Mon, 16 Oct 2006 19:06:20 +0100
+
+libregexp-common-perl (2.120-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stephen Quinney <sjq@debian.org>  Fri, 18 Mar 2005 09:01:48 +0000
+
+libregexp-common-perl (2.119-1) unstable; urgency=low
+
+  * New upstream release - some small incompatible changes regarding US
+    postal code parsing. See Regexp::Common::zip for details.
+
+ -- Stephen Quinney <sjq@debian.org>  Tue, 25 Jan 2005 09:52:21 +0000
+
+libregexp-common-perl (2.118-1) unstable; urgency=low
+
+  * New upstream release - bug fixes.
+
+ -- Stephen Quinney <sjq@debian.org>  Thu, 16 Dec 2004 18:54:08 +0000
+
+libregexp-common-perl (2.117-1) unstable; urgency=low
+
+  * New upstream release - bug fixes.
+  * Updated copyright file.
+
+ -- Stephen Quinney <sjq@debian.org>  Fri,  2 Jul 2004 10:12:02 +0100
+
+libregexp-common-perl (2.115-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stephen Quinney <sjq@debian.org>  Wed, 16 Jun 2004 18:25:22 +0100
+
+libregexp-common-perl (2.113-1) unstable; urgency=low
+
+  *  Inital release, closes: #188330.
+
+ -- Stephen Quinney <sjq@debian.org>  Fri,  4 Apr 2003 12:31:46 +0100
